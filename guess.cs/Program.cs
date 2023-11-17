@@ -21,6 +21,7 @@ namespace guess.cs
             Random random = new Random();
             //create array to store number of attempts
             int[] attempt_list = new int[10];
+            //variable to store attempts
             int attempts = 0;
 
             int returnvalue = random.Next(1, 10);
