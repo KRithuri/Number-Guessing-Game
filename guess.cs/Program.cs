@@ -40,6 +40,7 @@ namespace guess.cs
                 Console.WriteLine("That is cool. Thanks!");
                 Console.ReadKey();
             }
+            //code to run if user chooses yes
             else
             {
                 if(attempt_list == null || attempt_list.Length == 0)
