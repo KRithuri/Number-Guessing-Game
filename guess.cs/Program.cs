@@ -10,6 +10,8 @@ namespace guess.cs
     {
         static void Main(string[] args)
         {
+            int[] attempt_list;
+            Random ran = new Random();
         }
     }
 }
