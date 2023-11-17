@@ -55,6 +55,8 @@ namespace guess.cs
             //code to run if attempt is equal to random number
             Console.WriteLine($"Good ! Its  {returnvalue}");
             attempts += 1; //increment attempts
+
+            //display results to user 
             Console.WriteLine($"It took {attempts} attempts!");
             attempt_list.Append(attempts);
             Console.ReadKey();
