@@ -50,7 +50,7 @@ namespace guess.cs
             {
                 Console.WriteLine($" wrong answer {response} is not the good response try again !");
                 response = Convert.ToInt32(Console.ReadLine());
-                attempts += 1;
+                attempts += 1; //increment attempts
             }
 
             Console.WriteLine($"Good ! Its  {returnvalue}");
