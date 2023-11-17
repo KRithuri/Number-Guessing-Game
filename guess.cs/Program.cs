@@ -45,7 +45,7 @@ namespace guess.cs
                 response = Convert.ToInt32(Console.ReadLine());
                 attempts += 1; //increment attempts
             }
-
+            //loop to run if response is not equal to random number
             while (response != returnvalue)
             {
                 Console.WriteLine($" wrong answer {response} is not the good response try again !");
