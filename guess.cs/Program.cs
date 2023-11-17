@@ -38,7 +38,7 @@ namespace guess.cs
                 //increment attempts
                 attempts += 1;
             }
-
+            //loop to run if response is less than random number
             while (response < returnvalue)
             {
                 Console.WriteLine($"No the number is high than {response} try again !");
