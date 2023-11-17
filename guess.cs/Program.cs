@@ -26,6 +26,7 @@ namespace guess.cs
 
             int returnvalue = random.Next(1, 10);
 
+            //ask user to guess
             Console.WriteLine(" Guess a number between 1 to 10 ");
             int response = Convert.ToInt32(Console.ReadLine());
 
