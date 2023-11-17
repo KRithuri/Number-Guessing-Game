@@ -19,6 +19,7 @@ namespace guess.cs
         static void start_game()
         {
             Random random = new Random();
+            //create array to store number of attempts
             int[] attempt_list = new int[10];
             int attempts = 0;
 
