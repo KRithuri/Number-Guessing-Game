@@ -52,7 +52,7 @@ namespace guess.cs
                 response = Convert.ToInt32(Console.ReadLine());
                 attempts += 1; //increment attempts
             }
-
+            //code to run if attempt is equal to random number
             Console.WriteLine($"Good ! Its  {returnvalue}");
             attempts += 1;
             Console.WriteLine($"It took {attempts} attempts!");
