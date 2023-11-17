@@ -51,7 +51,7 @@ namespace guess.cs
                 else
                 {
                     
-                    Console.WriteLine($"The current score if {attempt_list[1]} attempts");
+                    Console.WriteLine($"The current score if {attempt_list.Min()} attempts");
                 }
                     
                 //ask user to guess
