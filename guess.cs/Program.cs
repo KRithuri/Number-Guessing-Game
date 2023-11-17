@@ -30,6 +30,7 @@ namespace guess.cs
             Console.WriteLine(" Guess a number between 1 to 10 ");
             int response = Convert.ToInt32(Console.ReadLine());
 
+            //loop to run if response is greater than random number
             while (response > returnvalue)
             {
                 Console.WriteLine($"No the number is low than {response} try again !");
