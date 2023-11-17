@@ -35,7 +35,7 @@ namespace guess.cs
             {
                 Console.WriteLine($"No the number is low than {response} try again !");
                 response = Convert.ToInt32(Console.ReadLine());
-
+                //increment attempts
                 attempts += 1;
             }
 
