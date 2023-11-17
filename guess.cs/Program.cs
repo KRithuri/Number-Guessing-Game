@@ -43,6 +43,7 @@ namespace guess.cs
             //code to run if user chooses yes
             else
             {
+                //check if attempt array has elements
                 if(attempt_list == null || attempt_list.Length == 0)
                 {
                     Console.WriteLine("There is currently no high score. It is yours for the taking!");
