@@ -6,6 +6,10 @@ random_number = random.randint(1,10)
 
 guesses = 0
 
+#ask user for name
+print('Hello user! Welcome to the guessing game!')
+player_name = input('What is your name? ')
+
 while True:
     #increment guesses variable
     guesses += 1
@@ -23,3 +27,5 @@ while True:
     #code to run if user guess < computer guess
     else:
         print("It is highher...")
+        
+print("You got it in", guesses, "guesses")
