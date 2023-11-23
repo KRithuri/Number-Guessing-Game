@@ -19,3 +19,7 @@ while True:
     #code to run if user guess > computer guess
     elif user_guesses >random_number:
         print("It is lower...") 
+        
+    #code to run if user guess < computer guess
+    else:
+        print("It is highher...")
