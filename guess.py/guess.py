@@ -15,3 +15,7 @@ while True:
     #code to run if user gueess = computer guess
     if user_guesses == random_number:
         print("You got it!")
+        
+    #code to run if user guess > computer guess
+    elif user_guesses >random_number:
+        print("It is lower...") 
