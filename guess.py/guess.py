@@ -12,5 +12,6 @@ while True:
     #ask user for input
     user_guesses = int(input("Guess a number between 1 and 10: "))
 
-    #if user_guesses == random_number:
-       # print("You got it!")
+    #code to run if user gueess = computer guess
+    if user_guesses == random_number:
+        print("You got it!")
