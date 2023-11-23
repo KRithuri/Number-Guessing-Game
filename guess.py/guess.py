@@ -1,3 +1,10 @@
+#function to store and display high score
+def show_score():
+    if not attempt_list:
+        print('There is currently no high score, it\'s yours for the taking!')
+    else:
+        print(f'The current high score is' f' {min(attempt_list)} attempts')
+        
 def play_game():
     #import random module 
     import random
