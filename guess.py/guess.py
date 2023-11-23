@@ -45,6 +45,7 @@ def play_game():
                 if play_option.lower() != 'y':
                     print('That is cool, Thanks!')
                     break
+                #code to run if user wants to play again
                 else:
                     guesses = 0
                     random_number = random.randint(1, 10)
