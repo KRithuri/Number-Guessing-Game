@@ -1,3 +1,8 @@
+#import random module
+import random
+#array to store  high scores
+attempt_list = []
+
 #function to store and display high score
 def show_score():
     if not attempt_list:
@@ -6,7 +11,7 @@ def show_score():
         print(f'The current high score is' f' {min(attempt_list)} attempts')
         
 def play_game():
-    #import random module 
+   
     import random
 
     #generate random number for the computer
