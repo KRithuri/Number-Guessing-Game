@@ -10,6 +10,11 @@ guesses = 0
 print('Hello user! Welcome to the guessing game!')
 player_name = input('What is your name? ')
 
+play_option = input(f'Hi, {player_name}, would you like to play' f' the guessing game?(Enter Y/N): ')
+if play_option.lower() != 'y':
+    print('That is cool, Thanks!')
+    exit()
+    
 while True:
     #increment guesses variable
     guesses += 1
