@@ -18,6 +18,7 @@ function play(){
         guessed_numbers.push(user_guess);
         number_of_guesses += 1;
 
+        //code to run if user guess < random number
         if(user_guess < randomNumber){
             result.textContent = "It is higher..."
             message1.textContent = "No of guesses: " + number_of_guesses;
