@@ -10,6 +10,7 @@ var guessed_numbers = [];
 function play(){
     var user_guess = document.getElementById("guess-input").value;
 
+    //check if user input is between 1 and 10
     if(user_guess < 1 || user_guess > 10){
         alert("Please enter a number between 1 and 10!")
     }
