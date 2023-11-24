@@ -32,3 +32,11 @@ p{
     margin-bottom: 20px;
     color: #6f16be;
 }
+input{
+    padding: 10px;
+    border-radius: .8rem;
+    border: 2px solid #6f16be;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    color: #6f16be;
+    outline: none;
+}
