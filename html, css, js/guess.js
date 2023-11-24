@@ -24,6 +24,7 @@ function play(){
             message1.textContent = "No of guesses: " + number_of_guesses;
             message2.textContent = "Guessed number are: " + guessed_numbers;
         }
+        //code to run if user guess > random number
         else if(user_guess > randomNumber){
             result.textContent = "It is lower..."
             message1.textContent = "No of guesses: " + number_of_guesses;
